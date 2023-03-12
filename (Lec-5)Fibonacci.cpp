@@ -8,7 +8,7 @@ int main(){
 
  int a = 0;
  int b = 1;
- printf("%d ",a);
+ printf("%d %d ",a,b);
  for(int i=1; i<=n; i++){
     int fibo = a+b;
     printf("%d ",fibo);
